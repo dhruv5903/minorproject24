@@ -21,6 +21,7 @@ The detected animal species are:
 8. **Tiger**
 
 _**These species were chosen based on their frequent interactions with urban environments and the potential risks they pose to public safety**_. The dataset underwent multiple iterations, improving class balance and ensuring robust training.
+
 Dataset Link: [Custom Dataset](https://universe.roboflow.com/dhruvs-workspace/animalintusiondetectionsystem)
 
 ## **Model Training**
@@ -37,6 +38,7 @@ The YOLOv8 model was trained using Roboflow with an optimized configuration for 
   - **Mean Average Precision (mAP):** 95.3%
   - **Precision:** 93.4%
   - **Recall:** 91.1%
+
 These performance metrics indicate the model's effectiveness in correctly identifying wild animals while **minimizing false positives and false negatives**.
 
 ## **Environment Setup Instructions**
