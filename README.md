@@ -70,8 +70,8 @@ These performance metrics indicate the model's effectiveness in correctly identi
         - Obtain your API key and set it as an environment variable:
         ```python
         from roboflow import Roboflow
-        rf = Roboflow(api_key="NJvbl1HBuiiRBzqivAcU")
-        project = rf.workspace("dhruvs-workspace").project("animalintusiondetectionsystem")
+        rf = Roboflow(api_key="ROBOFLOW_API_KEY")
+        project = rf.workspace("WORKSPACE_NAME").project("PROJECT_NAME")
         version = project.version(3)
         custom_configuration = InferenceConfiguration(confidence_threshold=0.4)'
         ```
